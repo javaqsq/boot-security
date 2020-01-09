@@ -19,8 +19,8 @@ public class AliYunSmsConstant {
     public static final String TEST_SIGN_NAME = "QsqOnline通知";
 
 
-    public static final String ACCESS_KEY_SECRET = "d1Qdg9Dzt6iYcEwluVayxnHC19E7ga" ;
+    public static final String ACCESS_KEY_SECRET = "yourSecret" ;
 
-    public static final String ACCESS_KEY_ID = "LTAIU49P7iydoWqP";
+    public static final String ACCESS_KEY_ID = "yourKeyId";
 
 }
