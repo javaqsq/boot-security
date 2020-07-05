@@ -39,6 +39,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
         clients.inMemory()
                 .withClient("qsq")
                 .secret(passwordEncoder.encode("secret"))
+                // 授权模式
                 .authorizedGrantTypes("refresh_token", "authorization_code", "password")
                 .accessTokenValiditySeconds(43000)
                 .refreshTokenValiditySeconds(500000)
